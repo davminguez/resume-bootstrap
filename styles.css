@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
     
     
 }
@@ -12,6 +13,7 @@ body {
 
 .block-body {
     margin-top: 5px;
+    margin-bottom: 10px;
     padding-left: 50px;
     padding-right: 50px;
     
@@ -63,7 +65,7 @@ box-shadow: -8px 4px 39px 12px rgba(0,0,0,0.75);
 }
 .progress .skill {
   font: normal 12px 'Montserrat', sans-serif;
-  line-height: 22px;
+  line-height: 21px;
   padding: 0;
   margin: 0 0 0 15px;
   text-transform: uppercase;
@@ -74,6 +76,13 @@ box-shadow: -8px 4px 39px 12px rgba(0,0,0,0.75);
   margin: 0 15px 0 0;
 }
 
+.progress-bar h6 {
+    float: right;
+    line-height: 1px; 
+    /*text-shadow: 1px 1px #000;*/
+    padding-right: 2px;
+}
+
 .progress-bar {
   text-align: left;
   transition-duration: 3s;
@@ -81,12 +90,13 @@ box-shadow: -8px 4px 39px 12px rgba(0,0,0,0.75);
 
 #progress {
     /*padding-left: 15px;*/
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #progress h4 {
     font-family: 'Covered By Your Grace', cursive;
     color: #fff;
+    font-size: 20px;
     /*padding-left: 20px;*/
 }
 
@@ -162,6 +172,7 @@ box-shadow: -8px 4px 39px 12px rgba(0,0,0,0.75);
     font-size: 13px;
     font-style: italic;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 /*experience heading*/
@@ -192,3 +203,37 @@ box-shadow: -8px 4px 39px 12px rgba(0,0,0,0.75);
     width: 365px;
 }
 
+.exp-timeline {
+    text-align: right;
+}
+
+/*additional skills section*/
+
+#add-skills {
+    width: 100%;
+    margin-top: 35px;
+    padding: 0;
+    text-transform: uppercase;
+    color: #428bca;
+    font-size: 28px;
+}
+#add-skills:after {
+    display: inline-block;
+    margin: 0 0 9px 12px;
+    height: 2px;
+    content: " ";
+    text-shadow: none;
+    background-color: #428bca;
+    width: 320px;
+
+}
+
+#add-skills:before {
+    display: inline-block;
+    margin: 0 12px 9px 0;
+    height: 2px;
+    content: " ";
+    text-shadow: none;
+    background-color: #428bca;
+    width: 320px;
+}
