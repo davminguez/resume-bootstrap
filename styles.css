@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
-    
+    display:block;
+    overflow:auto;
     
 }
 
@@ -30,7 +30,6 @@ body {
      background-color: #428bca;
      padding-top: 15px;
      padding-left: 25px;
-     height: 700px;
      -webkit-box-shadow: -8px 4px 39px 12px rgba(0,0,0,0.75);
 -moz-box-shadow: -8px 4px 39px 12px rgba(0,0,0,0.75);
 box-shadow: -8px 4px 39px 12px rgba(0,0,0,0.75);
